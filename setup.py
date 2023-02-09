@@ -15,14 +15,11 @@ def get_requirements()->List[str]:
         requirement_list.remove(HYPHEN_E_DOT)
     return requirement_list
 
-
-
 setup(
     name="sensor",
-    version="0.0.2",
-    author="ineuron",
-    author_email="avnish@ineuron.ai",
+    version="0.0.1",
+    author="saketh",
+    author_email="sakethchoudary227@gmail.com",
     packages = find_packages(),
     install_requires=get_requirements(),
 )
-
